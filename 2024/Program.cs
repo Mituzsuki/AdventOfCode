@@ -1,4 +1,5 @@
 ﻿using _2024;
+using _2024.DayFive;
 using _2024.Utilities;
 using _2024.WeekFour;
 using _2024.WeekOne;
@@ -13,7 +14,9 @@ List<(ISolution solution, string week)> solutions = new List<(ISolution solution
     (new WeekThreeSolution(), "Three, pt. 1"),
     (new WeekThreePartTwoSolution(), "Three pt. 2"),
     (new DayFourSolution(), "Four pt. 1"),
-    (new DayFourPartTwoSolution(), "Four pt. 1")
+    (new DayFourPartTwoSolution(), "Four pt. 2"),
+    (new DayFiveSolution(), "Five pt. 1"),
+    (new DayFivePartTwoSolution(), "Five pt. 2"),
 };
 
 foreach (var solution in solutions)
