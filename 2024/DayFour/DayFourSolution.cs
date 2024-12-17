@@ -1,10 +1,10 @@
 namespace _2024.WeekFour;
 
-public class WeekFourSolution : ISolution
+public class DayFourSolution : ISolution
 {
     public string GetSolution()
     {
-        var inputFilepath = "WeekFour/input.txt";
+        var inputFilepath = "DayFour/input.txt";
 
         var lines = File.ReadAllLines(inputFilepath);
 

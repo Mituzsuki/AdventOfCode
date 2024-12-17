@@ -6,7 +6,7 @@ public class WeekThreeSolution : ISolution
 {
     public string GetSolution()
     {
-        var inputFilepath = "WeekThree/input.txt";
+        var inputFilepath = "DayThree/input.txt";
 
         //I think this puzzle only has a single line
         var lines = File.ReadAllLines(inputFilepath);

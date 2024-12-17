@@ -4,7 +4,7 @@ public class WeekTwoSolution : ISolution
 {
     public string GetSolution()
     {
-        var inputFilepath = "WeekTwo/input.txt";
+        var inputFilepath = "DayTwo/input.txt";
 
         var lines = File.ReadAllLines(inputFilepath);
 

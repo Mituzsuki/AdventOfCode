@@ -2,11 +2,11 @@ using _2024.Utilities;
 
 namespace _2024.WeekOne;
 
-public class WeekOnePartTwoSolution : ISolution
+public class DayOnePartTwoSolution : ISolution
 {
     public string GetSolution()
     {
-        var inputFilepath = "WeekOne/input.txt";
+        var inputFilepath = "DayOne/input.txt";
 
         var lines = File.ReadAllLines(inputFilepath);
 

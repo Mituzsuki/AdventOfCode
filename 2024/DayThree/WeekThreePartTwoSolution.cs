@@ -6,7 +6,7 @@ public class WeekThreePartTwoSolution : ISolution
 {
     public string GetSolution()
     {
-        var inputFilepath = "WeekThree/input_two.txt";
+        var inputFilepath = "DayThree/input_two.txt";
 
         //I think this puzzle only has a single line
         //We prepend do() to make our regex work a bit easier
